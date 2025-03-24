@@ -1,0 +1,35 @@
+# Node.js dependencies
+node_modules/
+package-lock.json
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Production build files
+dist/
+build/
+
+# Editor & OS-specific files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Debugging files
+coverage/
+.nyc_output/
+
+# Nodemon reload file
+.nodemon-debug.json
+
+# Miscellaneous
+*.bak
+*.cache
