@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-  "dev": "nodemon index.js",
-  "start": "node index.js"
-},
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Knaval10/lyrics_backend.git"
@@ -19,10 +19,17 @@
   },
   "homepage": "https://github.com/Knaval10/lyrics_backend#readme",
   "description": "",
-  "dependencies": {
-    "express": "^4.21.2"
-  },
   "devDependencies": {
     "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.15.0",
+    "mongoose": "^8.12.2"
   }
 }
